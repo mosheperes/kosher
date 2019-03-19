@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Restaurant} from './models/restaurant';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'kosher1';
+  constructor(){
+  }
 }
+
+
+
